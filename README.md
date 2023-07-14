@@ -2,12 +2,11 @@
 
 Use:
 ```bash
-cd /path/to/portainer_type
-curl -Ls https://raw.githubusercontent.com/FinchTechSoCal/docker-portainer/main/docker-compose<-agent>.yml -o docker-compose.yaml # <-- match type! -agent, -be, or remove for CE version
-curl -Ls https://raw.githubusercontent.com/FinchTechSoCal/docker-portainer/main/.env -o .env
+git clone https://github.com/FinchTechSoCal/docker-portainer.git ~/appdata/docker_files/portainer
 ```
 
 Modify .env, then
 ```bash
-docker compose up -d
+cd ~/appdata/docker_files/portainer
+docker compose -f docker-compose-<version>.yml -p portainer up -d
 ```
