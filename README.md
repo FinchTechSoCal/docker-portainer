@@ -2,9 +2,9 @@
 
 Use:
 ```bash
-INVOL=/path/to/appdata/portainer
-git clone https://github.com/FinchTechSoCal/docker-portainer.git $INVOL
-cd $INVOL
+cd /path/to/portainer_type
+curl -Ls https://raw.githubusercontent.com/FinchTechSoCal/docker-portainer/main/docker-compose<-agent>.yml -o docker-compose.yaml # <-- match type! -agent, -be, or remove for CE version
+curl -Ls https://raw.githubusercontent.com/FinchTechSoCal/docker-portainer/main/.env -o .env
 ```
 
 Modify .env, then
