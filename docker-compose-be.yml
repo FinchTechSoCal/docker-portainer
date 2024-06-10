@@ -1,9 +1,8 @@
 ---
-version: "2.1"
 services:
 #
   portainer:
-    image: portainer/portainer-ee:latest
+    image: portainer/portainer-ee:alpine-sts
     container_name: portainer
     environment:
       - PUID=${PUID}

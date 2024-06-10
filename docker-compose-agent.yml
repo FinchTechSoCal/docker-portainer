@@ -1,8 +1,7 @@
 ---
-version: "2.1"
 services:
 #
-  portainer:
+  portainer_agent:
     image: portainer/agent:latest
     container_name: portainer_agent
     environment:
