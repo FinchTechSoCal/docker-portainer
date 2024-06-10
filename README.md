@@ -8,6 +8,5 @@ git clone https://github.com/FinchTechSoCal/docker-portainer.git ~/appdata/docke
 
 Modify .env, then
 ```bash
-cd ~/appdata/docker_files/portainer
 docker compose -f ~/appdata/docker_files/portainer/docker-compose-<version>.yml up -d
 ```
