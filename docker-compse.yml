@@ -2,7 +2,7 @@
 services:
 #
   portainer:
-    image: portainer/portainer-ce:lts # was portainer/portainer-ce:alpine-sts
+    image: ${PORTAINER_IMAGE}
     container_name: portainer
     environment:
       - PUID=${PUID}
