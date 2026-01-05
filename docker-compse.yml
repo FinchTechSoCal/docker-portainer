@@ -1,3 +1,8 @@
+#
+# https://docs.portainer.io/
+# LTS image: https://docs.portainer.io/whats-new#long-term-support-lts
+# STS image: https://docs.portainer.io/sts/whats-new#short-term-support-sts
+#
 ---
 services:
 #
